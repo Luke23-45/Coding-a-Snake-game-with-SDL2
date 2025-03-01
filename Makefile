@@ -6,7 +6,7 @@ LIBS := -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf
 
 # Target executable
 TARGET := main
-SRC := pong.cc
+SRC := snake.cc
 
 # Build rule
 $(TARGET): $(SRC)
