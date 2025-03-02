@@ -26,7 +26,7 @@ brew install sdl2 sdl2_ttf
 ## Project Structure
 
 ```
-├── snake_game.cc        # Main C++ source file for the Snake game.
+├── snake.cc        # Main C++ source file for the Snake game.
 ├── Makefile             # Makefile for building the project.
 
 ```
