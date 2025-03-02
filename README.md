@@ -1,4 +1,4 @@
-```markdown
+
 # Snake Game in C++ with SDL2
 
 A classic Snake game implemented in C++ using SDL2 for graphics and SDL2_ttf for font rendering.
@@ -128,4 +128,4 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 - SDL2 for graphics rendering and event handling.
 - SDL2_ttf for font rendering and text display.
-```
+
