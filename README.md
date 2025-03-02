@@ -28,17 +28,17 @@ brew install sdl2 sdl2_ttf
 ```
 ├── snake_game.cc        # Main C++ source file for the Snake game.
 ├── Makefile             # Makefile for building the project.
-└── README.md            # Project README file.
+
 ```
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone git@github.com:Luke23-45/Colorfull-Ball-with-Particle-Effect-Animation.git
+   git clone git@github.com:Luke23-45/Coding-a-Snake-game-with-SDL2.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Colorfull-Ball-with-Particle-Effect-Animation
+   cd Coding-a-Snake-game-with-SDL2
    ```
 
 ## Building
@@ -54,11 +54,11 @@ This project uses `make` for building. To build the project, run the following c
 
 3. Run the executable:
    ```bash
-   ./snake_game
+   ./main
    ```
    Or if you are on Windows and `make` configured for Windows:
    ```bash
-   snake_game.exe
+  main.exe
    ```
 
 4. To clean up the build artifacts (object files and executable):
@@ -72,7 +72,6 @@ This project uses `make` for building. To build the project, run the following c
 - Score tracking: Displays the current score on the screen.
 - Wall and self-collision detection: Game ends upon collision with walls or the snake's own body.
 - Food generation: Food appears randomly in locations not occupied by the snake.
-- Simple and clean graphics using SDL2.
 - Keyboard controls for snake movement (Up, Down, Left, Right arrow keys).
 - Score display using SDL2_ttf for a better visual experience.
 - Grid-based movement for a retro game feel.
@@ -90,9 +89,9 @@ This project uses `make` for building. To build the project, run the following c
 
 ## Code Structure
 
-The project consists of a single C++ source file, `snake_game.cc`, which contains all the game logic and rendering code.
+The project consists of a single C++ source file, `snake.cc`, which contains all the game logic and rendering code.
 
-- **`snake_game.cc`**:
+- **`snake.cc`**:
     - Includes necessary headers: `SDL2/SDL.h`, `SDL2/SDL_ttf.h`, `<iostream>`, `<deque>`, `<cstdlib>`, `<string>`, `<algorithm>`.
     - Defines constants for window dimensions (`WINDOW_WIDTH`, `WINDOW_HEIGHT`), tile size (`TILE_SIZE`), and update interval (`UPDATE_INTERVAL_MS`).
     - Implements `Segment` structure to represent snake segments with `x` and `y` coordinates.
@@ -112,10 +111,7 @@ The project consists of a single C++ source file, `snake_game.cc`, which contain
             - Fixed timestep game logic updates: snake movement, collision detection, food spawning, score update.
             - Rendering: clearing the screen, drawing grid lines, snake segments, food, and score text.
         - Cleans up resources: frees memory, closes font, destroys renderer and window, quits SDL and SDL_ttf.
-- **`Makefile`**:
-    - Contains instructions for compiling the `snake_game.cc` file and linking it with SDL2 and SDL2_ttf libraries.
-    - Defines compilation flags and linking libraries for SDL2 and SDL2_ttf.
-    - Includes `all` target to build the executable and `clean` target to remove build artifacts.
+
 
 ## Demo Video
 *Demo video link will be added here if available.*
