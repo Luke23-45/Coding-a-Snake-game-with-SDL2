@@ -114,7 +114,7 @@ The project consists of a single C++ source file, `snake.cc`, which contains all
 
 
 ## Demo Video
-*Demo video link will be added here if available.*
+https://youtu.be/HDTzYFRzg50
 
 ## License
 
