@@ -58,7 +58,7 @@ This project uses `make` for building. To build the project, run the following c
    ```
    Or if you are on Windows and `make` configured for Windows:
    ```bash
-  main.exe
+   main.exe
    ```
 
 4. To clean up the build artifacts (object files and executable):
